@@ -1,0 +1,39 @@
+a_int = 1  # -> integers, no max/min values
+
+a_float = -1.0  # -> float definitions
+
+a_string = "test" # string is list of chars, there is no char type
+
+a_string2 = 'test' # " and ' are the same
+
+print(a_string[1])
+
+a_list = [1, 1.0, "1", [1, 2, 3]]  # mutable (can be edited), ordered, can be repeated
+print(a_list[1])
+a_list[3] = 2 -  #  podmieniać
+a_list.append("test")  #  dodawać
+a_list.remove("1")  #  usuwać
+del a_list[2]
+print(a_list[-1]) # negative indexes
+print(a_list[0:3])  # slicing
+
+a_tuple = (0, 1, "2") #  są podobne do list ale nie są edytowalne czyli mutowalne. Not mutable, can be repeated
+#  a_tuple[0] = 1 -> throw exception
+
+a_dict = {"title": "Harry Potter", "author", "JK Rowling", "items": 2}  # mutable
+a_dict2 = {"key", "value", 0, 1} # int as key not recommended
+print(a_dict["title"])
+a_dict["items"] = 3
+a_dict["cover"] = "hard"
+print(a_dict)
+
+a_set = {0, 2, 1, 2} # collections of unique values (mutable, not ordered, unique)
+
+a_bool = True  # zmienna binarna czyli bulin
+
+if a_bool: # False for 0, "", [], (), {}, None
+    print("This is true")
+else:
+    print("This is false")
+
+a_none = None  # brak typu
